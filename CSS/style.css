@@ -85,7 +85,7 @@ transition: all 0.3s ease-out; (edited)
   
 }
 .heroImageBox{
-text-align: left;
+text-align:left;
 position: absolute;
 justify-content:space-evenly;
 top: 50%;
@@ -240,6 +240,7 @@ padding:30px;
 .contact{
   display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap:140px;
   
     display: flex;
     justify-content: center;
