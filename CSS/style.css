@@ -28,13 +28,19 @@ button {
   display: inline-block;
   font-size: 16px;
 }
+button:hover{
+  background-color: #C2E5F2; 
+  transition:ease-out 0.2s;
+
+}
+
 .topNav{
   display:flex;
   justify-content: flex-end;
   display: grid;
   grid-template-columns: 50px 80px 120px;
   align-content:space-around
-  font-family: 'Montserrat', sans-serif;
+  
 }
 .topNav a{
   float: left;
@@ -88,9 +94,10 @@ transition: all 0.3s ease-out; (edited)
 text-align:left;
 position: absolute;
 justify-content:space-evenly;
-top: 50%;
-left: 50%;
-transform: translate(-100%, 60%);
+bottom: 5%;
+left: 0%;
+width:100%;
+
 
 
 color: #f1f1f1; 
@@ -124,14 +131,14 @@ transform:translateY(90%);
   }
 .heading2{
   display:flex;
-  transform: translate(15%, -280%);
+  transform: translate(18%,-400%);
 }
 .one {
   grid-column: 1 / 2;
   grid-row: 1;
   display: flex;
   justify-content: center;
-  transform: translate(-14%, 50%);
+  transform: translate(-14%, 70%);
 }
 .two {
   grid-column: 2 / 2;
@@ -163,7 +170,7 @@ transform:translateY(90%);
 .four {
   grid-column: 2 / 2;
   grid-row: 1;
-  transform: translate(35%, 42%);
+  transform: translate(35%, 60%);
   line-height: 30px;
 }
 .goal{
@@ -248,6 +255,7 @@ padding:30px;
 .titleC{
   display: flex;
   justify-content: center;
+
 }
 .connect{
   background-color:#E6F5FB;
@@ -305,7 +313,7 @@ span {
   transform: translateY(-10%);
 }
 
-.fade{
+.fa{
   font-family: 'Montserrat', sans-serif;
 }
 @media only screen and (max-width: 600px) {

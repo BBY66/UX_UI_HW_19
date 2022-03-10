@@ -7,7 +7,7 @@ $( "li" ).hover(
     }
   );
    
-  $( "li.fade" ).hover(function() {
+  $( "li.fa" ).hover(function() {
     $( this ).fadeOut( 100 );
     $( this ).fadeIn( 500 );
   })
